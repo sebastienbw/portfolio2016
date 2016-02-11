@@ -1,4 +1,4 @@
-if (shouldOpen($("#portfolio-row-1-title"))) {
+if (shouldOpen($.("#portfolio-row-1-title"))) {
 	console.log("open");
 }
 
