@@ -1,0 +1,160 @@
+body {
+	margin: 0px;
+}
+
+h1 {
+
+}
+
+h2 {
+	margin-top: 0em;
+}
+
+h3 {
+	margin-top: 0em;
+}
+
+#name {
+	height: 100vh;
+	background-color: black;
+}
+
+#about {
+	height: 100vh;
+	background-color: white;
+}
+
+#portfolio {
+	background-color: gray;
+}
+
+#contact {
+	background-color: black;
+}
+
+#menu {
+	background-color: white;
+}
+
+#highlight {
+	position: fixed;
+	top: 0px;
+	left: -100vw;
+	width: 100vw;
+	height: 100vh;
+	background-color: gray;
+}
+
+/*----------------------------------------------
+NAME*/
+
+[class*="name-element"] {
+	position: absolute;
+	width: 100%;
+	color: white; 
+	z-index: 1;
+}
+
+.name-element-name {
+	text-align: center;
+	top: 30vh;
+}
+
+.name-element-title {
+	top: 40vh;
+}
+
+[id*="name-title-"] {
+	width: 30%;
+	height: 2em;
+	background-color: #222222;
+	position: absolute;
+	margin-top: 0.75em;
+}
+
+#name-title-left {
+	left: 15%;
+	text-align: right;
+}
+
+#name-title-right {
+	left: 55%;
+	text-align: left;
+}
+
+#name-title-ampersand {
+	width: 10%;
+	height: 6vw;
+	background-color: black;
+	left: 45%;
+	position: absolute;
+	text-align: center
+}
+
+.name-element-prompt {
+	width: 5%;
+	height: 5vw;
+	left: 47.5%;
+	top: 90vh;
+	background-color: #111111;
+}
+
+[class*="name-background"] {
+	position: absolute;
+	width: 50%;
+	height: 100vh;
+}
+
+.name-background-left {
+	background-color: #444444;
+	left: 0px;
+}
+
+.name-background-right {
+	background-color: #333333;
+	right: 0px;
+}
+
+/*----------------------------------------------
+ABOUT*/
+
+#about-text {
+	width: 50%;
+	padding-top: 10em;
+	padding-left: 50%;
+}
+
+
+/*----------------------------------------------
+PORTFOLIO*/
+
+.portfolio-element {
+	width: 100%;
+	height: 33.333vw;
+}
+
+[class*="portfolio-element-block"] {
+	width: 33.333%;
+	height: 33.333vw;
+	background-color: #cccccc;
+	position: absolute;
+	/*padding: 1em;*/
+	/*box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;*/
+}
+
+.portfolio-element-block-left {
+	left: 0%;
+}
+
+.portfolio-element-block-right {
+	left: 66.666%;
+}
+
+.portfolio-element-block-center {
+	left: 33.333%
+}
+
+[id*="portfolio-row"] {
+}
